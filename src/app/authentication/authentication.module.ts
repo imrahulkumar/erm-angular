@@ -11,7 +11,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 const routes: Routes = [
   { path: "forgot", component: ForgotPasswordBoxedComponent },
   { path: "login", component: LoginBoxedComponent },
-  { path: "register", component: RegisterBoxedComponent }
+  { path: "signup", component: RegisterBoxedComponent }
 ]
 
 @NgModule({
